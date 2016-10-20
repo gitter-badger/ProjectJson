@@ -6,6 +6,8 @@ Brings back project.json after the move from xproj to csproj.
   
 ## Continuous Integration
 
+[![Join the chat at https://gitter.im/Project-Json/Lobby](https://badges.gitter.im/Project-Json/Lobby.svg)](https://gitter.im/Project-Json/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 | Name      | Operating System | Status |
 | :---      | :---             | :---   |
 | AppVeyor  | Windows          | [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/aknwu9sil3dv3im0?svg=true)](https://ci.appveyor.com/project/RehanSaeed/projectjson) |
