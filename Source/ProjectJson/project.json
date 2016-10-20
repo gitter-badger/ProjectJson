@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "title": "project-json",
+  "description": "Command line too which brings back project.json after the move from xproj to csproj.",
+  "copyright": "Copyright © Muhammad Rehan Saeed. All rights Reserved",
+  "authors": [ "Muhammad Rehan Saeed (RehanSaeed.com)" ],
+
+  "packOptions": {
+    "releaseNotes": "Initial Version.",
+    "owners": [ "Muhammad Rehan Saeed (RehanSaeed.com)" ],
+    "tags": [ "ASP.NET", "ASP.NET Core", "MVC", "MVC 6", "Muhammad Rehan Saeed", "dotnet", "project.json" ],
+    "iconUrl": "https://raw.githubusercontent.com/RehanSaeed/ProjectJson/master/Images/Icon.png",
+    "projectUrl": "https://github.com/RehanSaeed/ProjectJson",
+    "licenseUrl": "https://github.com/RehanSaeed/ProjectJson/blob/master/LICENSE",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/RehanSaeed/ProjectJson.git"
+    },
+    "requireLicenseAcceptance": true
+  },
+
+  "buildOptions": {
+    "additionalArguments": [ "/ruleset:../../MinimumRecommendedRulesWithStyleCop.ruleset" ],
+    "emitEntryPoint": true,
+    "keyFile": "../../Key.snk",
+    "outputName": "project-json",
+    "warningsAsErrors": true
+  },
+
+  "dependencies": {
+    "AutoMapper": "5.1.1",
+    "Microsoft.DotNet.Cli.Utils": "1.0.0-preview2-003121",
+    "Microsoft.Extensions.CommandLineUtils": "1.0.0",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "StyleCop.Analyzers": {
+      "type": "build",
+      "version": "1.0.0"
+    }
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+    }
+  }
+}
